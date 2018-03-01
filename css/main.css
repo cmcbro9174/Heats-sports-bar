@@ -10,14 +10,15 @@
 
 /*********** Begin Layout Styles ***********/
 body {
-  background-color: #99ffff;
+  background-image: url("../img/heat.jpg");
+
 }
 
 div.container {
-  background-color: #ffffff;
+  background-color: #000000;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1200px; /* disable this line if you want full-width layouts */
+  max-width: 1000px; /* disable this line if you want full-width layouts */
 }
 
 header, main, footer {
@@ -106,12 +107,12 @@ footer {
 }
 
 div {
-  border: 1px solid #999999; /* disable this line once layout works */
-  text-align: center; /* disable this line once layout works */
+  /* border: 1px solid #999999; disable this line once layout works */
+  /* text-align: center;  disable this line once layout works */
 }
 
 main div {
-    min-height: 80px; /* disable this line once layout works */
+  /*   min-height: 80px; disable this line once layout works */
 }
 
 div#Name {
@@ -124,6 +125,7 @@ div#Logo {
 
 div#Carousel {
   grid-area: Carousel;
+  overflow: hidden;
 }
 
 div#Menu {
@@ -155,11 +157,16 @@ overflow: hidden;
 
 /* Headings */
 h1 {
-
+   font-family: 'Ceviche One', cursive;
+   font-size: 70px;
+   color: #ffffff;
 }
 
 h2 {
-
+   font-family: 'Ceviche One', cursive;
+   font-size: 30px;
+   color: #ffffff;
+   max-width: 100%;
 }
 
 h3 {
@@ -220,7 +227,7 @@ td {
 
 /* images */
 img {
-
+ max-width: 100%;
 }
 iframe{
   max-width: 100%;
