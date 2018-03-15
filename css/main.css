@@ -159,18 +159,18 @@ overflow: hidden;
 h1 {
    font-family: 'Ceviche One', cursive;
    font-size: 70px;
-   color: #ffffff;
+   color: #F87200;
 }
 
 h2 {
    font-family: 'Ceviche One', cursive;
    font-size: 30px;
-   color: #ffffff;
+   color: #F87200;
    max-width: 100%;
 }
 
 h3 {
-
+color: #ffffff;
 }
 
 h4 {
@@ -235,19 +235,31 @@ iframe{
 /* links */
 
 a:link {
-
+  font-family: 'Ceviche One', cursive;
+  font-size: 30px;
+  color: #F87200;
+  max-width: 100%;
 }
 
 a:visited {
-
+  font-family: 'Ceviche One', cursive;
+  font-size: 30px;
+  color: #F87200;
+  max-width: 100%;
 }
 
 a:hover {
-
+  font-family: 'Ceviche One', cursive;
+  font-size: 30px;
+  color: #F87200;
+  max-width: 100%;
 }
 
 a:active {
-
+  font-family: 'Ceviche One', cursive;
+  font-size: 30px;
+  color: #F87200;
+  max-width: 100%;
 }
 
 /* forms */
